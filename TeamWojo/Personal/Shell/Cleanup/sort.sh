@@ -1,0 +1,36 @@
+#! /bin/sh
+cd /mnt/lab/media \
+&& find . -type f -name '*.doc' -exec mv -n {} /mnt/lab/doc \;
+find . -type f -name '*.gif' -exec mv -n {} /mnt/lab/gif \;
+find . -type f -name '*.pptx' -exec mv -n {} /mnt/lab/pptx \;
+find . -type f -name '*.ppt' -exec mv -n {} /mnt/lab/ppt \;
+find . -type f -name '*.pdf' -exec mv -n {} /mnt/lab/pdf \;
+find . -type f -name '*.vce' -exec mv -n {} /mnt/lab/vce \;
+find . -type f -name '*.docx' -exec mv -n {} /mnt/lab/docx \;
+find . -type f -name '*.zip' -exec mv -n {} /mnt/lab/zip \;
+find . -type f -name '*.iso' -exec mv -n {} /mnt/lab/iso \;
+find . -type f -name '*.jpg' -exec mv -n {} /mnt/lab/jpg \;
+find . -type f -name '*.JPG' -exec mv -n {} /mnt/lab/jpg \;
+find . -type f -name '*.webm' -exec mv -n {} /mnt/lab/webm \;
+find . -type f -name '*.mpg' -exec mv -n {} /mnt/lab/mpg \;
+find . -type f -name '*.torrent' -exec mv -n {} /mnt/lab/torrent \;
+find . -type f -name '*.wmv' -exec mv -n {} /mnt/lab/wmv \;
+find . -type f -name '*.mkv' -exec mv -n {} /mnt/lab/mkv \;
+find . -type f -name '*.asf' -exec mv -n {} /mnt/lab/asf \;
+find . -type f -name '*.avi' -exec mv -n {} /mnt/lab/avi \;
+find . -type f -name '*.bat' -exec mv -n {} /mnt/lab/bat \;
+find . -type f -name '*.bat' -exec mv -n {} /mnt/lab/bat \;
+find . -type f -name '*.txt' -exec mv -n {} /mnt/lab/txt \;
+find . -type f -name '*.bmp' -exec mv -n {} /mnt/lab/bmp \;
+find . -type f -name '*.csv' -exec mv -n {} /mnt/lab/csv \;
+find . -type f -name '*.mov' -exec mv -n {} /mnt/lab/mov \;
+find . -type f -name '*.MOV' -exec mv -n {} /mnt/lab/mov \;
+find . -type f -name '*.kdbx' -exec mv -n {} /mnt/lab/kdbx \;
+find . -type f -name '*.PNG' -exec mv -n {} /mnt/lab/PNG \;
+find . -type f -name '*.KDBX' -exec mv -n {} /mnt/lab/kdbx \;
+find . -type f -name '*.ps1' -exec mv -n {} /mnt/lab/powershell \;
+find . -type f -name '*.csv' -exec mv -n {} /mnt/lab/csv \;
+find . -type f -name '*.gifv' -exec mv -n {} /mnt/lab/gifv \;
+find . -name "*.json" -type f -delete ;
+find . -type d -empty -exec rmdir {} \;
+find . -name "Sample" -exec rm -rf {} \;
